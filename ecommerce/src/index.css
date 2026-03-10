@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --primary-color: #405a40;
+    --secondary-color: #ced894;
+    --title: #f8eaa1;
+    --contrast: #245e75;
+    --text-base: #32372c;
+    --cta: #a78f4f;
+    --background: #c9e3d7;
+    --text-color: #453b38;
+    --gradient1: linear-gradient(135deg, #6f9dc8, #dceef8);
+    --gradient2: linear-gradient(135deg, #afa163c8, #c8d197);
+    --font-base: "Poppins", sans-serif;
+    --font-title: "Dancing Script", cursive;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-base);
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-title);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
